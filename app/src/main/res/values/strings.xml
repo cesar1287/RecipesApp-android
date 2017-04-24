@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RecipesApp​</string>
+    <string name="dialog_loading_data">Loading data, please wait…</string>
 </resources>
