@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/recipe_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:background="@drawable/recipe242"
+        android:textSize="20sp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Delicioso batido de fresa"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/recipe_title"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/ic_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_clock"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:text="5"
+        android:id="@+id/recipe_time"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/ic_clock"
+        android:layout_toEndOf="@id/ic_clock"
+        android:layout_marginTop="162dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginStart="3dp"/>
+
+</RelativeLayout>
